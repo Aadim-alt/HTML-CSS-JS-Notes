@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+#hallalua{
+    color: red;
+}
+#huihuihui{
+    color: orange;
+}
+#huhuhuhu{
+    color: yellow;
+}
+.odd{
+    color: aqua;
+}
+
+.even{
+    color: aliceblue;
+}
