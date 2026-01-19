@@ -1,0 +1,14 @@
+h1 {
+    text-shadow: 3px 3px 5px rgb(55, 11, 11), -3px -3px 5px rgb(11, 41, 61);
+    /* the first number is for horizontal text second is for vertical and third is for shadow
+    if you don't understand then try it change it you can also add more shadow
+    using comma*/
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 5px rgb(107, 22, 22), -3px -3px 5px rgb(9, 17, 54);
+
+}

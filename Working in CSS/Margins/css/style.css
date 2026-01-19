@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+.box {
+    border: 5px solid;
+    border-radius: 10px;
+    font-size: 2em;
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px 5px brown, -3px -3px 5px aliceblue;
+}
+
+#box1 {
+    border-color: purple;
+    background-color: rgb(71, 150, 176);
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    /* if you want it to be in center then use */
+    margin: auto;
+}
+
+/* if you want to put margin at once not top bottom then use margin: 50px; */
+
+#box2 {
+    border-color: rgb(58, 42, 20);
+    background-color: rgb(221, 111, 111);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    /* this sends the margin to edge right side making space in left */
+    margin-right: 20px;
+}
