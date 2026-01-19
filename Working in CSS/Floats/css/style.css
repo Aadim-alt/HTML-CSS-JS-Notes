@@ -1,0 +1,16 @@
+body {
+    border: 3px solid;
+    display: flow-root;
+    /* this command makes sure that anu body floating
+    is inside the container */
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 10px;
+}

@@ -1,0 +1,11 @@
+div {
+    border: 2px solid;
+    height: 75px;
+    /* overflow: visible; this is default so you see the overflow*/
+    /* overflow: hidden; this hides the overflow but u can interact with it */
+    /* overflow: clip; this is similiar to hidden but this is used using
+    overflow-clip-margin: 0px; this sets how far the content overflows */
+    /* overflow: scroll; this gives the box a scroll bar */
+    overflow: auto;
+    /* this gives scrollbar when needed */
+}
