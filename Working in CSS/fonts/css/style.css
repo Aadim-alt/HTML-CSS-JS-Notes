@@ -1,9 +1,12 @@
-h1{
+h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p{
+
+p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1em; 
+    font-size: 1em;
     font-weight: bold;
     font-style: oblique;
+    /* and here in css
+    font-family: "name of the font of the link you copied"*/
 }

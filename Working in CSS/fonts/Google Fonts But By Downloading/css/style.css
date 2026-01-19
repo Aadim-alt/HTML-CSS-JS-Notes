@@ -1,0 +1,18 @@
+/* to add the donwloaded font from google font the below
+steps are necessary from @font-face rule to url to the font address */
+
+
+@font-face {
+
+    src: url("../Roboto/roboto.ttf");
+    /* if there are comma put it inside "" or css won't take it as file name
+    but get interpreted as CSS separators*/
+    /*This is a rule and the src: url() is the file path to the donwloaded font and its name 
+    and be very careful of file address i was stuck in this for half an hour because of ../*/
+    font-family: roboto;
+}
+
+p {
+    font-family: roboto;
+
+}
