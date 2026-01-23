@@ -1,0 +1,8 @@
+.block{
+  border: 2px solid;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}

@@ -1,0 +1,29 @@
+div{
+  background-color: red;
+  /* You can change the width of div as its block level but not of span */
+  /* width: 100px;
+  height: 100px; */ 
+  display: inline;
+  /* This changes display yo a inline element */
+}
+
+span{
+  background-color: blue;
+  /* But you can make span a block level element and div a inline */
+  display: block;
+  /* Now you can change width and height of inline level element */
+  width: 200px;
+  height: 200px;
+}
+
+/*
+ There is other one display block too that does the same thing of both
+ display: inline-block;
+ and one where it makes the element dissapear
+ display: none;
+ And there is a visiblility element unlike display: none; which makes the element
+ ad if it never existed
+
+ visibility: hidden; hides the element but its there and takes its space
+ 
+ */
